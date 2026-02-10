@@ -12,6 +12,9 @@ int main(){
     head->data = 45;
     head->link = NULL; /* All nodes including the head node point to NULL when initialised.
     This gives us freedom to expand the list later if we need to */
-    
+
+    printf("Size of struct node = %d\n", sizeof(struct node));
+
+    printf("Data in head node = %d", head->data);
     return 0;
 }
