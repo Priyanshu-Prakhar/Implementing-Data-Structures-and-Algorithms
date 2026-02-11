@@ -38,6 +38,7 @@ node* get_last_node (node *head){
 int main(){
     node* list1 = create_LL(5);
     add_node(list1, 6);
+    add_node(list1, 7);
     printf("%d", get_last_node(list1)->data);
 
     return 0;
