@@ -47,6 +47,8 @@ void* elmAtIndex(Array *arr, int index){
 //    return result;
 //}
 
+// This is a test commit comment
+
 int main(){
     Array arr1;
     initArr(&arr1, 4, sizeof(char));
