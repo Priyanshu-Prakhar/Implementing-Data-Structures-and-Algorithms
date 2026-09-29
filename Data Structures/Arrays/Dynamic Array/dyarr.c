@@ -3,8 +3,6 @@
 #include<string.h>
 typedef  struct{
     void *data;
-    size_t elm_size; //To tell what type the elements are.
-    int size; // Current number of elements
     int capacity; // Max number of elements
 } Array;
 
